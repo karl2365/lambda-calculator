@@ -1,0 +1,29 @@
+.numberButton {
+    background: #336699;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    outline: none;
+}
+
+.specialButton {
+    background: #6699bb;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    outline: none;
+
+}
+
+.operatorButton {
+    background: #99bbee;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    outline: none;
+
+}
+
