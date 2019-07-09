@@ -7,6 +7,15 @@
     outline: none;
 }
 
+.zero {
+    background: #336699;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    outline: none;
+    width: 110px;
+}
+
 .specialButton {
     background: #6699bb;
     width: 50px;
