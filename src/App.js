@@ -24,7 +24,6 @@ function App() {
   const updateCalc = (value) => {
     value === '+/-' ? setCalc(math.eval(-calc)) : value === '=' ? setCalc(math.eval(calc)) : value === 'C' ? 
       setCalc(0) : calc === 0 ? setCalc(value) : setCalc(calc + value);
-    console.log(calc);
   }
 
   return (
