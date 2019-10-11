@@ -1,5 +1,5 @@
 import React, {useState} from "react";
- import {create, all} from 'mathjs';
+import {create, all} from 'mathjs';
 import "./App.css";
 import Operators from './components/ButtonComponents/OperatorButtons/Operators';
 import Specials from './components/ButtonComponents/SpecialButtons/Specials';
@@ -23,9 +23,10 @@ function App() {
 
   const updateCalc = (value) => {
     value === '+/-' ? setCalc(math.eval(-calc)) : value === '=' ? setCalc(math.eval(calc)) : value === 'C' ? 
-      setCalc(0) : calc === 0 ? setCalc(value) : setCalc(calc + value);
+    setCalc(0) : calc === 0 ? setCalc(value) : setCalc(calc + value);
   }
 
+ 
   return (
     <div className="container">
       <Logo />
